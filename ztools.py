@@ -1,5 +1,6 @@
 import getpass
 
+
 password = "zeeshan123"
 username = "zshn"
 userIn = str(input("Enter username: "))
@@ -13,9 +14,6 @@ while userIn != username:
         # time.wait(3)
         exit()
         
-    
-from os import system
-# system("stty -echo")
 passIn = getpass.getpass("Enter password: ")
 if passIn == "exit":
     exit()
