@@ -1,5 +1,5 @@
 # ZTools
-User Authentication and Random Wordlist Generator
+###User Authentication and Random Wordlist Generator###
 This Python script provides basic user authentication and a random wordlist generator. It prompts the user for a username and password and, upon successful authentication, allows the user to generate a random wordlist.
 
 Prerequisites
