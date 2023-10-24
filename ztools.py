@@ -9,13 +9,7 @@ while userIn != username:
     print("user not found!")
     userIn = input("Enter username: ")
     if userIn == "exit":
-        
-        # time.wait(3)
         exit()
-        
-    
-from os import system
-# system("stty -echo")
 passIn = getpass.getpass("Enter password: ")
 if passIn == "exit":
     exit()
